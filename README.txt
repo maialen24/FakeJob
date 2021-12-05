@@ -14,3 +14,5 @@ NOTEBOOK:
 
 .py fitxategien bitartez ere exekutatu daiteke, eta emaitzak Output karpetan gordeko dira. Dena exekutatzeko main.py exekutatu behar da.
 Baina nire ustez ulergarriagoa da notebook-etan egiten bada.
+
+Poster : poster.pdf fitxategian

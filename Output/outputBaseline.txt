@@ -1,0 +1,33 @@
+12516
+5364
+CPU times: user 2min 47s, sys: 997 ms, total: 2min 48s
+Wall time: 58.5 s
+Testing accuracy 0.9494780014914244
+Testing F1 score: 0.9255971070080632
+              precision    recall  f1-score   support
+
+           0       0.95      1.00      0.97      5093
+           1       0.50      0.01      0.01       271
+
+    accuracy                           0.95      5364
+   macro avg       0.72      0.50      0.49      5364
+weighted avg       0.93      0.95      0.93      5364
+
+Accuracy: 0.9494780014914244
+Precision: 0.5
+Recall: 0.007380073800738007
+12516
+5364
+Accuracy: 0.9643922445935869
+Precision: 1.0
+Recall: 0.2653846153846154
+<Figure size 432x288 with 2 Axes>
+              precision    recall  f1-score   support
+
+           0       0.96      1.00      0.98      5104
+           1       1.00      0.27      0.42       260
+
+    accuracy                           0.96      5364
+   macro avg       0.98      0.63      0.70      5364
+weighted avg       0.97      0.96      0.95      5364
+

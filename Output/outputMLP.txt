@@ -1,0 +1,18 @@
+12516
+5364
+CPU times: user 3min 28s, sys: 1.15 s, total: 3min 29s
+Wall time: 1min 11s
+              precision    recall  f1-score   support
+
+           0       0.95      1.00      0.97      5093
+           1       0.00      0.00      0.00       271
+
+    accuracy                           0.95      5364
+   macro avg       0.47      0.50      0.49      5364
+weighted avg       0.90      0.95      0.92      5364
+
+Accuracy: 0.9494780014914244
+Precision: 0.0
+Recall: 0.0
+12516
+5364

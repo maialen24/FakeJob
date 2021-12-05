@@ -1,0 +1,102 @@
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 17880 entries, 0 to 17879
+Data columns (total 18 columns):
+ #   Column               Non-Null Count  Dtype 
+---  ------               --------------  ----- 
+ 0   job_id               17880 non-null  int64 
+ 1   title                17880 non-null  object
+ 2   location             17534 non-null  object
+ 3   department           6333 non-null   object
+ 4   salary_range         2868 non-null   object
+ 5   company_profile      14572 non-null  object
+ 6   description          17879 non-null  object
+ 7   requirements         15185 non-null  object
+ 8   benefits             10670 non-null  object
+ 9   telecommuting        17880 non-null  int64 
+ 10  has_company_logo     17880 non-null  int64 
+ 11  has_questions        17880 non-null  int64 
+ 12  employment_type      14409 non-null  object
+ 13  required_experience  10830 non-null  object
+ 14  required_education   9775 non-null   object
+ 15  industry             12977 non-null  object
+ 16  function             11425 non-null  object
+ 17  fraudulent           17880 non-null  int64 
+dtypes: int64(5), object(13)
+memory usage: 2.5+ MB
+Data dims is:  (17880, 18)
+Number of real (label as 0) and fake jobs (label as 1) in the dataset :
+0    17014
+1      866
+Name: fraudulent, dtype: int64
+17880
+17880
+                                                    post  Fraudulent
+0      Marketing Intern,US, NY, New York,Marketing,We...           0
+1      Customer Service - Cloud Video Production,NZ, ...           0
+2      Commissioning Machinery Assistant (CMA),US, IA...           0
+3      Account Executive - Washington DC,US, DC, Wash...           0
+4      Bill Review Manager,US, FL, Fort Worth,SpotSou...           0
+...                                                  ...         ...
+17875  Account Director - Distribution ,CA, ON, Toron...           0
+17876  Payroll Accountant,US, PA, Philadelphia,Accoun...           0
+17877  Project Cost Control Staff Engineer - Cost Con...           0
+17878  Graphic Designer,NG, LA, Lagos,Nemsia Studios ...           0
+17879  Web Application Developers,NZ, N, Wellington,E...           0
+
+[17880 rows x 2 columns]
+                                                    post  Fraudulent
+0      Marketing Intern US  NY  New York Marketing We...           0
+1      Customer Service  Cloud Video Production NZ   ...           0
+2      Commissioning Machinery Assistant CMA US  IA  ...           0
+3      Account Executive  Washington DC US  DC  Washi...           0
+4      Bill Review Manager US  FL  Fort Worth SpotSou...           0
+...                                                  ...         ...
+17875  Account Director  Distribution  CA  ON  Toront...           0
+17876  Payroll Accountant US  PA  Philadelphia Accoun...           0
+17877  Project Cost Control Staff Engineer  Cost Cont...           0
+17878  Graphic Designer NG  LA  Lagos Nemsia Studios ...           0
+17879  Web Application Developers NZ  N  Wellington E...           0
+
+[17880 rows x 2 columns]
+                                                    post  Fraudulent
+0      [marketing, intern, us, ny, new, york, marketi...           0
+1      [customer, service, cloud, video, production, ...           0
+2      [commissioning, machinery, assistant, cma, us,...           0
+3      [account, executive, washington, dc, us, dc, w...           0
+4      [bill, review, manager, us, fl, fort, worth, s...           0
+...                                                  ...         ...
+17875  [account, director, distribution, ca, on, toro...           0
+17876  [payroll, accountant, us, pa, philadelphia, ac...           0
+17877  [project, cost, control, staff, engineer, cost...           0
+17878  [graphic, designer, ng, la, lagos, nemsia, stu...           0
+17879  [web, application, developers, nz, n, wellingt...           0
+
+[17880 rows x 2 columns]
+                                                    post  Fraudulent
+0      [marketing, intern, u, ny, new, york, marketin...           0
+1      [customer, service, cloud, video, production, ...           0
+2      [commissioning, machinery, assistant, cma, u, ...           0
+3      [account, executive, washington, dc, u, dc, wa...           0
+4      [bill, review, manager, u, fl, fort, worth, sp...           0
+...                                                  ...         ...
+17875  [account, director, distribution, ca, on, toro...           0
+17876  [payroll, accountant, u, pa, philadelphia, acc...           0
+17877  [project, cost, control, staff, engineer, cost...           0
+17878  [graphic, designer, ng, la, lagos, nemsia, stu...           0
+17879  [web, application, developer, nz, n, wellingto...           0
+
+[17880 rows x 2 columns]
+                                                    post  Fraudulent
+0      marketing intern u ny new york marketing were ...           0
+1      customer service cloud video production nz auc...           0
+2      commissioning machinery assistant cma u ia wev...           0
+3      account executive washington dc u dc washingto...           0
+4      bill review manager u fl fort worth spotsource...           0
+...                                                  ...         ...
+17875  account director distribution ca on toronto sa...           0
+17876  payroll accountant u pa philadelphia accountin...           0
+17877  project cost control staff engineer cost contr...           0
+17878  graphic designer ng la lagos nemsia studio loo...           0
+17879  web application developer nz n wellington engi...           0
+
+[17880 rows x 2 columns]
